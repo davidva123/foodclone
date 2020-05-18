@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 class JumboTron extends Component {
     state = {  }
     render() { 
