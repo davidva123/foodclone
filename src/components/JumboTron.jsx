@@ -1,7 +1,7 @@
 class JumboTron extends Component {
     state = {  }
     render() { 
-        return (  );
+        return ( 'Jumbotron'  );
     }
 }
  

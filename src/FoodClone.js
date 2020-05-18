@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navigation from "./components/Navigation";
+import JumboTron from "./components/JumboTron";
 
 class FoodClone extends Component {
   state = {};
@@ -7,7 +8,7 @@ class FoodClone extends Component {
     return (
       <div className="container-fluid">
         <Navigation />
-        
+        <JumboTron />
       </div>
     );
   }
