@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import "../design/JumboTron.scss";
+import "./JumboTron.scss";
+
 class JumboTron extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <div className="row justify-content-md-center my-5">
+        <div className="row justify-content-md-center my-5 jumbotron">
           <div className="col col-lg-2">
             <h1>HEADER</h1>
           </div>
