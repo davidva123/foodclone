@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import JumboTron from "./components/JumboTron";
+import "./design/overall.scss";
 
 class FoodClone extends Component {
   state = {};
