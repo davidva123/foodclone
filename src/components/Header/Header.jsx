@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./JumboTron.scss";
+import "./Header.scss";
 
 class JumboTron extends Component {
   state = {};
