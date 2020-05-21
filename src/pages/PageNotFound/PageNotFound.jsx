@@ -1,5 +1,7 @@
 import React from "react";
 
+// This is the now found page which wil be shown if url is not matched by react router
+
 const PageNotFound = () => {
   return (
     <div>
