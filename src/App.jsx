@@ -5,7 +5,7 @@ import RecipeHome from "./pages/RecipeHome/RecipeHome";
 import NotFound from "./pages/PageNotFound/PageNotFound";
 import RecipeDetail from "./pages/RecipeDetail/RecipeDetail";
 
-// This is the old home page
+// This import is the old home page
 // For just now i've rendered the old homepage to / although ultimately we will need to split it up. Navigation should probably go in here and
 import FoodClone from "./FoodClone";
 
