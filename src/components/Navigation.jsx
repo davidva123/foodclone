@@ -25,7 +25,17 @@ class Navigation extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
-                  Home
+                  RECIPES
+                </a>
+              </li>
+              <li className="nav-item active">
+                <a className="nav-link" href="#">
+                  POPULAR
+                </a>
+              </li>
+              <li className="nav-item active">
+                <a className="nav-link" href="#">
+                 SUMMER GRILLSS
                 </a>
               </li>
 
