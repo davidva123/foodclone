@@ -1,4 +1,9 @@
 @media screen and (max-width:800px) {
+
+    .container {
+        width: 100% !important;
+        
+    }
     .nav-bar-bg >.container >.nav-bar-left {
         display: flex;    
         flex-direction: column;    

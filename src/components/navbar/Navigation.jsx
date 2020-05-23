@@ -14,7 +14,7 @@ class Navigation extends Component {
             
             <div class="logo">
 
-              <p>Food<span class="dot">.</span></p>
+              <p>Food<span class="dot ">.</span></p>
 
             </div>
 
