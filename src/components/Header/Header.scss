@@ -13,13 +13,32 @@
   margin-left: 0 !important;
 }
 
-.card-title {
+.card {
+  border-bottom: 4px solid #0095A3 !important;
+ 
+}
+.card-body {
   margin-top:-160px;
   position: relative;
   color:black;
+}
+
+
+.card-title {
+  display: inline-block;
+  padding: 5px 10px;
+  width: fit-content;
   background-color: white;
   font-weight: 800;
+
 }
+.card-text {
+  display: inline-block;
+  background-color: white;
+ 
+}
+
+
 
 .card-title:hover {
   color: #892074;
