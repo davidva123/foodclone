@@ -2,8 +2,8 @@
  height: 50px;
  align-items: center;
  background-color: white !important;
- margin: 50px;
  padding-bottom: 70px !important;
+ width: 100% !important;
 }
 
 .jumbotron .header > h1 {
@@ -22,8 +22,7 @@
   position: relative;
   color:black;
 }
-
-
+ 
 .card-title {
   display: inline-block;
   padding: 5px 10px;

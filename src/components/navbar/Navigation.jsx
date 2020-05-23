@@ -1,11 +1,61 @@
 import React, { Component } from "react";
+import "./navbar.scss";
 
 class Navigation extends Component {
   state = {};
   render() {
     return (
-      <div className="row">
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+      <div className="nav-bar-bg">
+
+        <div className="container">
+
+          <div class="nav-bar-left">
+            
+            <div class="logo">
+
+              <p>Food<span class="dot">.</span></p>
+
+            </div>
+
+            <div class="nav-bar-items">
+
+              <div class="item">
+
+                <a className="nav-link" href="#">Recipes</a>
+
+              </div>
+
+              <div class="item">
+
+                <a className="nav-link" href="#">Popular</a>
+
+              </div>
+
+              <div class="item">
+
+                <a className="nav-link" href="#">Summer Grilling</a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="nav-bar-right">
+
+            <a href="#">Login</a>
+
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+     
+      /*<div className="row">
+             <nav className=" navbar navbar-expand-md navbar-dark bg-dark fixed-top">
           <a className="navbar-brand" href="#">
             NavbarLogo
           </a>
@@ -47,7 +97,8 @@ class Navigation extends Component {
             </ul>
           </div>
         </nav>
-      </div>
+      </div>*/
+
     );
   }
 }
