@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 import "./index.css";
-import FoodClone from "./FoodClone";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import * as serviceWorker from "./serviceWorker";
 import RecipeProvider from "./contexts/RecipeContext";
@@ -9,7 +9,7 @@ import RecipeProvider from "./contexts/RecipeContext";
 ReactDOM.render(
   <React.StrictMode>
     <RecipeProvider>
-      <FoodClone />
+      <App />
     </RecipeProvider>
   </React.StrictMode>,
   document.getElementById("root")
