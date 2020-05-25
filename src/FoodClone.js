@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/navbar/Navigation";
 import Header from "./components/Header/Header";
 import StarRating from "./components/StarRating/StarRating";
 
