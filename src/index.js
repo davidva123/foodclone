@@ -4,10 +4,13 @@ import "./index.css";
 import FoodClone from "./FoodClone";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import * as serviceWorker from "./serviceWorker";
+import RecipeProvider from "./contexts/RecipeContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FoodClone />
+    <RecipeProvider>
+      <FoodClone />
+    </RecipeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
