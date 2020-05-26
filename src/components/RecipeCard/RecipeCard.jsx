@@ -1,5 +1,6 @@
 import React from "react";
 import StarRating from "../StarRating/StarRating";
+import CookTime from "../CookTime/CookTime";
 import "./RecipeCard.scss";
 
 export const RecipeCard = () => {
@@ -13,7 +14,9 @@ export const RecipeCard = () => {
           <StarRating rating={3} />
         </span>
         <span className="col-lg-2">
-          <p>Time: X CLOCKICON</p>
+          <p>
+            Time: <CookTime cookTime={12} />
+          </p>
         </span>
       </div>
     </div>
