@@ -8,16 +8,13 @@ export const StarRating = ({ rating }) => {
   let movieRating = Array.from({ length: Math.floor(rating) });
 
   return (
-    <div className="row justify-content-md-center ">
+    <div className="StarRating row justify-content-md-center">
       <div className="col col-lg-5">
-      <div className="StarRating">
-      {movieRating.map((star) => (
-        <i class="fas fa-star"></i>
-      ))}
-    </div>
+        {movieRating.map((star) => (
+          <i class="fas fa-star"></i>
+        ))}
       </div>
     </div>
-    
   );
 };
 
