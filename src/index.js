@@ -4,10 +4,13 @@ import App from "./App";
 import "./index.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import * as serviceWorker from "./serviceWorker";
+import RecipeProvider from "./contexts/RecipeContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RecipeProvider>
+      <App />
+    </RecipeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
