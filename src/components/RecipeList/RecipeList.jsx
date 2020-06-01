@@ -7,7 +7,7 @@ export const RecipeList = () => {
   return (
     <div className=" recipe-list row justify-content-md-center ">
       <div className="col col-lg-5">
-        <RecipeListFilter />
+        {/* <RecipeListFilter />  removed due to nonuse */}
         {/* {recipes.map(recipe => <RecipeCard recipe={recipe}/>)} */}
         <div className=" row  ">
           <RecipeCard starRating={1} />
