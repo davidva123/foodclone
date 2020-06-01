@@ -1,12 +1,12 @@
 import React, { createContext, useContext } from "react";
+const sampleData = require("./sampleData.json");
 
-const intialRecipes = { value: "loaded" };
-export const RecipeContext = createContext(intialRecipes);
+export const RecipeContext = createContext(sampleData);
 
 //Provider Component is wrapped round the App in Index
 const RecipeProvider = ({ children }) => {
   return (
-    <RecipeContext.Provider value={intialRecipes}>
+    <RecipeContext.Provider value={sampleData}>
       {children}
     </RecipeContext.Provider>
   );
