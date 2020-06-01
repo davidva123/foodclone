@@ -1,10 +1,45 @@
 .jumbotron {
-  h1 {
-    color: pink;
-  }
+ height: 50px;
+ align-items: center;
+ background-color: white !important;
+ padding-bottom: 70px !important;
+ width: 100% !important;
+}
 
-  &-body {
-    
-    
-  }
+.jumbotron .header > h1 {
+  color: black;
+  font-weight: 800;
+  text-align: left;
+  margin-left: 0 !important;
+}
+
+.card {
+  border-bottom: 4px solid #0095A3 !important;
+ 
+}
+.card-body {
+  margin-top:-160px;
+  position: relative;
+  color:black;
+}
+ 
+.card-title {
+  display: inline-block;
+  padding: 5px 10px;
+  width: fit-content;
+  background-color: white;
+  font-weight: 800;
+
+}
+.card-text {
+  display: inline-block;
+  background-color: white;
+ 
+}
+
+
+
+.card-title:hover {
+  color: #892074;
+
 }

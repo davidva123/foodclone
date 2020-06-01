@@ -1,11 +1,11 @@
 import React from "react";
-import Navigation from "./components/Navigation";
 import Header from "./components/Header/Header";
 import RecipeList from "./components/RecipeList/RecipeList";
+import Navigation from "./components/navbar/Navigation";
 
 function FoodClone() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid m-0 p-0">
       <Navigation />
       <Header />
       <RecipeList />
