@@ -12,7 +12,8 @@
     "description": "a delicious bacon-studded tart.",
     "ingredients": "['flour', 'baking powder', 'kosher salt', 'unsalted butter', 'water', 'bacon', 'white onions', 'milk', 'heavy cream', 'eggs', 'gruyere cheese', 'fresh ground black pepper', 'nutmeg']",
     "n_ingredients": "13",
-    "contributor_name": "Dr. Leopoldo Rath"
+    "contributor_name": "Mrs. Baylee Kshlerin",
+    "rating": 1
   },
   {
     "name": "zydeco green beans",
@@ -27,7 +28,8 @@
     "description": "haricots verts are very slender french green beans. you can substitute other young, tender, very thin green beans. dill heads are the matured tops of dill that contain the seeds. use jalapeño chilies for a milder version or serrano for a spicier version. use caution when handling fresh chilies, being careful not to touch face or eyes and washing carefully afterward.",
     "ingredients": "['garlic cloves', 'yellow mustard seeds', 'french haricots vert', 'chilies', 'fresh dill', 'white wine vinegar', 'water', 'pickling salt']",
     "n_ingredients": "8",
-    "contributor_name": "Haleigh Gutmann"
+    "contributor_name": "Freda Langosh",
+    "rating": 2
   },
   {
     "name": "zydeco salad",
@@ -42,7 +44,8 @@
     "description": "recipe courtesy of b&c seafood, vacherie, la adapted from alton brown's cookbook \"feasting on asphalt\".  take this to your next covered-dish dinner or picnic.  finding the italian\r\nolive salad-the chopped olive spread that's an essential component of a\r\nmuffaletta sandwich-is the trick.  if you can't find it at the megamart do a search on 'zaar, there are many authentic recipes.\r\n  if you have minor's kalamata olive base, be sure to use it in the olive spread.  three bean salad: b&c seafood uses \"read\" brand of three-bean salad.  if you can't find it at your grocery store try www.senecafoods.com.  the olive salad and canned beans marry into the lettuce and tomatoes.  zydeco comes from \"les haricorts cont pas sales\", which means \"the beans aren't salty\", an expression for hard times when there wasn't enough salt meat to season the beans.  so this salad, with it's three different beans, is actually zydeco and the musical genre is named after it.  food is facinating stuff.  edited 5-18-09  i just made another batch of this, found a huge jar of the bean salad at costco.  this is so good, i could live on this salad.  you really need to try this one.  i made my olive salad from scratch this time with both kalamata and green olives, and will continue to go this route.",
     "ingredients": "['iceberg lettuce', 'tomatoes', '3 bean mix', 'olive salad']",
     "n_ingredients": "4",
-    "contributor_name": "Mustafa Muller"
+    "contributor_name": "Rodrigo Ruecker",
+    "rating": 4
   },
   {
     "name": "zydeco sauce",
@@ -57,7 +60,8 @@
     "description": "great sauce for cheeseburgers or dipping fries. try this on a reuben! wow! recipe was created by george graham, from lafayette, la. he was a finalist in the $50,000 sutter home build a better burger contest with this sauce spread on the buns, louisiana burgers with root beer glaze, topped with mardi gras slaw.",
     "ingredients": "['mayonnaise', 'prepared horseradish', 'worcestershire sauce', 'whole grain mustard', 'tabasco sauce', 'red pepper flakes']",
     "n_ingredients": "6",
-    "contributor_name": "Jerome Lowe"
+    "contributor_name": "Carmel McClure",
+    "rating": 4
   },
   {
     "name": "zydeco shrimp wrap",
@@ -72,7 +76,8 @@
     "description": "a wrap inspired by great cajun flavors",
     "ingredients": "['white rice', 'vegetable oil', 'onion', 'green bell pepper', 'celery ribs', 'tomato sauce', 'worcestershire sauce', 'hot sauce', 'shrimp', 'burrito-size flour tortillas', 'scallions']",
     "n_ingredients": "11",
-    "contributor_name": "Sterling Hirthe"
+    "contributor_name": "Mikel Miller",
+    "rating": 4
   },
   {
     "name": "zydeco soup",
@@ -87,7 +92,8 @@
     "description": "this is a delicious soup that i originally found on the better homes and gardens website, but i've seen it reprinted on a variety of other cooking and recipe sites.  i tried to research the background so i could accurately list its origin when posting this recipe.  but there doesn't seem to be any sort of consensus whether this soup is more accurately classified as a cajun or creole recipe. it seems to be one of those age-old questions that has no definite answer one way or the other, though most sites seem to agree that its roots are firmly planted in louisiana.  so, i'll leave it up to each individual to decide if this is cajun or creole.",
     "ingredients": "['celery', 'onion', 'green sweet pepper', 'garlic cloves', 'olive oil', 'cooked ham', 'paprika', 'sugar', 'dry mustard', 'ground cumin', 'dried basil', 'dried oregano', 'dried thyme', 'ground cloves', 'black pepper', 'cayenne pepper', 'black-eyed peas', 'yellow hominy', 'diced tomatoes', 'low sodium chicken broth', 'fresh parsley', 'molasses']",
     "n_ingredients": "22",
-    "contributor_name": "Rex Littel"
+    "contributor_name": "Conor Gerhold",
+    "rating": 3
   },
   {
     "name": "zydeco spice mix",
@@ -102,7 +108,8 @@
     "description": "this spice mix will make your taste buds dance!",
     "ingredients": "['paprika', 'salt', 'garlic powder', 'onion powder', 'dried basil', 'dried oregano', 'dried tarragon', 'dried thyme', 'powdered sugar', 'black pepper', 'cayenne pepper', 'red pepper flakes', 'celery seed']",
     "n_ingredients": "13",
-    "contributor_name": "Garry Parker"
+    "contributor_name": "Fred Adams I",
+    "rating": 1
   },
   {
     "name": "zydeco ya ya deviled eggs",
@@ -117,7 +124,8 @@
     "description": "deviled eggs, cajun-style",
     "ingredients": "['hard-cooked eggs', 'mayonnaise', 'dijon mustard', 'salt-free cajun seasoning', 'tabasco sauce', 'salt', 'black pepper', 'fresh italian parsley']",
     "n_ingredients": "8",
-    "contributor_name": "Alysha Koepp"
+    "contributor_name": "Piper Bogan",
+    "rating": 2
   },
   {
     "name": "cookies by design   cookies on a stick",
@@ -132,7 +140,8 @@
     "description": "i've heard of the 'cookies by design' company, but have never tried their cookies. this recipe is supposed to be like theirs.",
     "ingredients": "['butter', 'eagle brand condensed milk', 'light brown sugar', 'sour cream', 'egg', 'extract', 'nutmeg', 'self-rising flour', 'bisquick', 'wooden popsicle sticks']",
     "n_ingredients": "10",
-    "contributor_name": "Yasmin Sanford"
+    "contributor_name": "Connor Rempel",
+    "rating": 5
   },
   {
     "name": "cookies by design   sugar shortbread cookies",
@@ -147,6 +156,7 @@
     "description": "i've heard of the 'cookies by design' company, but have never tried their cookies. this is supposed to be a copy-cat of their sugar shortbread cookie.",
     "ingredients": "['granulated sugar', 'shortening', 'eggs', 'flour', 'cream of tartar', 'baking soda', 'vanilla extract']",
     "n_ingredients": "7",
-    "contributor_name": "Cary Howell"
+    "contributor_name": "Mr. Patricia Feil",
+    "rating": 5
   }
 ]
