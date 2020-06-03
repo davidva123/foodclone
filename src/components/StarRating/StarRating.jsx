@@ -10,8 +10,8 @@ export const StarRating = ({ rating }) => {
   return (
     <div className="StarRating row justify-content-md-center">
       <div className="col col-lg-5">
-        {movieRating.map((star) => (
-          <i class="fas fa-star"></i>
+        {movieRating.map((star, i) => (
+          <i key={`star-${i}`} className="fas fa-star"></i>
         ))}
       </div>
     </div>

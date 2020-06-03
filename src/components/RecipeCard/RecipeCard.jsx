@@ -10,14 +10,12 @@ export const RecipeCard = () => {
       <span>By: Variable</span>
       <p>Blurb goes here</p>
       <div className="row">
-        <span className="col-lg-2">
+        <div className="col-lg-2">
           <StarRating rating={3} />
-        </span>
-        <span className="col-lg-2">
-          <p>
-            Time: <CookTime cookTime={12} />
-          </p>
-        </span>
+        </div>
+        <div className="col-lg-2">
+          Time: <CookTime cookTime={12} />
+        </div>
       </div>
     </div>
   );
