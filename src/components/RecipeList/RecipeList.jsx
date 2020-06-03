@@ -1,9 +1,7 @@
-import React, { Component } from "react";
-import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
+import React from "react";
 import { RecipeCard } from "../RecipeCard/RecipeCard";
 
 export const RecipeList = () => {
-  // const recipes = useRecipes();
   return (
     <div className=" recipe-list row justify-content-md-center ">
       <div className="col col-lg-5">

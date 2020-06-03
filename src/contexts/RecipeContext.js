@@ -15,7 +15,7 @@ const RecipeProvider = ({ children }) => {
 export default RecipeProvider;
 
 // useRecipes hook to be used withing a components to access recipes context
-const useRecipes = () => {
+export const useRecipes = () => {
   const recipes = useContext(RecipeContext);
   return recipes;
 };
