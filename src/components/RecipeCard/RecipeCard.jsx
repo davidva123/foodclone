@@ -4,14 +4,13 @@ import CookTime from "../CookTime/CookTime";
 import "./RecipeCard.scss";
 
 export const RecipeCard = (props) => {
-console.log('Recipe >>',props.recipe);
-const {name,n_step, minutes} = props.recipe;
+  const { name, n_step, minutes, contributor_name, description } = props.recipe;
 
   return (
     <div className="RecipeCard col-md-4">
       <h1>{name}</h1>
-      <span>By: Variable</span>
-      <p>Blurb goes here</p>
+      <span>By: {contributor_name}</span>
+      <p>{description.length > 50 ? description.slice(1,100) + '...' : description}</p>
       <div className="row">
         <span className="col-lg-2">
           <StarRating rating={3} />
