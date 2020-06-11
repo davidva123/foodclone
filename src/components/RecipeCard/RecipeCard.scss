@@ -1,3 +1,22 @@
-.RecipeCard h1 {
-  color: orange;
+.RecipeCard {
+  &-image {
+    object-fit: cover;
+  }
+  &-by {
+    color: pink;
+    font-size: 0.75em;
+  }
+  &-blurb {
+    font-size: 0.75em;
+    color: green;
+  }
+
+  &-cooktime {
+    color: red;
+    border: 1px dashed red;
+  }
+  h1 {
+    font-size: 1.25rem;
+    color: orange;
+  }
 }
