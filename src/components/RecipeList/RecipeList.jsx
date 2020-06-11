@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
 import { RecipeCard } from "../RecipeCard/RecipeCard";
 import { RecipeContext } from "../../contexts/RecipeContext";
 export const RecipeList = () => {
