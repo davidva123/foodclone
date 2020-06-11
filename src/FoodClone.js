@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import RecipeList from "./components/RecipeList/RecipeList";
-import Navigation from "./components/Navbar/NavBar";
+// import Navigation from "./components/Navbar/NavBar";
+import Navigation from "./components/Navigation/Navigation";
 
 function FoodClone() {
   return (

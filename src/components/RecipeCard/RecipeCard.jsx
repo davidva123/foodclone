@@ -5,9 +5,13 @@ import "./RecipeCard.scss";
 import {TrimText} from '../../utils/TextHelpers';
 export const RecipeCard = (props) => {
   const { name, n_step, minutes, contributor_name, description } = props.recipe;
-
+  const recipecardteststyles = {
+    'border':'1px solid red'
+  }
+  
   return (
-    <div className="RecipeCard col-md-4">
+
+    <div className="RecipeCard col-md-4" style={recipecardteststyles}>
       <h1>{name}</h1>
       <span>By: {contributor_name}</span>
       <p>
