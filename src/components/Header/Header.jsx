@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Header.scss";
+import { FeaturedRecipe } from "../FeaturedRecipe/FeaturedRecipe";
 
 class JumboTron extends Component {
   state = {};
@@ -7,34 +8,13 @@ class JumboTron extends Component {
     return (
       <React.Fragment>
         <div className="row justify-content-center jumbotron">
-          <div className="col-11 col-sm-12 col-md-9 col-lg-10 header">
+          <div className="col-11 col-sm-12 col-md-9 col-lg-10">
             <h1>RECIPES</h1>
           </div>
         </div>
         <div className="row justify-content-md-center m-3 p-0 jumbotron-body">
-          <div className="col-12 col-md-9 col-lg-5">
-            <div className="card">
-              <img className="card-img-top" src="https://via.placeholder.com/120x100" alt="Card image cap" />
-              <div className="card-body">
-                <h2 className="card-title">Lorem ipsum dolor sit amet consectetur..</h2>
-                <p className="card-text">
-                  Some.
-                </p>
-            
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-9 col-lg-5">
-            <div className="card">
-              <img className="card-img-top" src="https://via.placeholder.com/120x100" alt="Card image cap" />
-              <div className="card-body">
-                <h2 className="card-title">Lorem ipsum dolor sit amet consectetur.</h2>
-                <p className="card-text">
-                  Some.
-                </p>
-              </div>
-            </div>
-          </div>
+          <FeaturedRecipe />
+          <FeaturedRecipe />
         </div>
       </React.Fragment>
     );
