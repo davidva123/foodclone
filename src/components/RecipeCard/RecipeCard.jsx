@@ -30,13 +30,13 @@ export const RecipeCard = (props) => {
         />
         <h1>{name}</h1>
         <span className="RecipeCard-by">By: {contributor_name}</span>
-        <p className="RecipeCard-blurb">{TrimText(description, 100)}</p>
+        {/* <p className="RecipeCard-blurb">{TrimText(description, 100)}</p> */}
         <div className="row">
-          <div className="col-lg-2">
-            <StarRating rating={3} />
+          <div className="col-lg-9">
+            <StarRating rating={3} likes={3411} />
           </div>
-          <div className="col-lg-2">
-            Time: <CookTime className="RecipeCard-cooktime" cookTime={12} />
+          <div className="col-lg-3">
+             <CookTime className="RecipeCard-cooktime" cookTime={12} />
           </div>
         </div>
       </Link>

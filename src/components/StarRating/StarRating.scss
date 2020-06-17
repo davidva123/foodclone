@@ -1,5 +1,11 @@
 .StarRating {
+  &-likes {
+    color: red;
+  }
   .fa-star {
     color: rgb(233, 233, 95);
+  }
+  i {
+    display: inline-block;
   }
 }
