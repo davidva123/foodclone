@@ -24,8 +24,10 @@ const RecipeDetail = (props) => {
               <ul>
                 Ingredients:
                 {recipe.ingredients
-                  ? recipe.ingredients
-                      .split("',")
+                  ? recipe.ingredients.replaceAll("'","")
+                  .replaceAll("[","")
+                  .replaceAll("]","")
+                      .split(",")
                       .map((ingredients) => (
                         <li key={recipe.id + Math.random()}> {ingredients} </li>
                       ))
@@ -35,6 +37,9 @@ const RecipeDetail = (props) => {
                 Steps:
                 {recipe.steps
                   ? recipe.steps
+                  .replaceAll("'","")
+                  .replaceAll("[","")
+                  .replaceAll("]","")
                       .split(",")
                       .map((steps) => (
                         <li key={recipe.id + Math.random()}> {steps} </li>
