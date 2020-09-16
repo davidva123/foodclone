@@ -15,7 +15,7 @@ export const RecipeCard = (props) => {
   } = props.recipe;
 
   const recipecardteststyles = {
-    border: "1px solid red",
+    // border: "1px solid red",
   };
 
   return (
@@ -25,7 +25,7 @@ export const RecipeCard = (props) => {
           className="
           RecipeCard-image"
           
-          src={`https://source.unsplash.com/232x180?id=${id}`}
+          src={`https://source.unsplash.com/random/232x180/?cats,dogs`}
           alt="temp"
         />
         <h1>{name}</h1>

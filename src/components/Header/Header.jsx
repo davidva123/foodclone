@@ -14,7 +14,7 @@ class JumboTron extends Component {
         <div className="row justify-content-md-center m-3 p-0 jumbotron-body">
           <div className="col-12 col-md-9 col-lg-5">
             <div className="card">
-              <img className="card-img-top" src="https://via.placeholder.com/120x100" alt="Card image cap" />
+              <img className="card-img-top" src="https://source.unsplash.com/400x400/?cats,dogs" alt="Card image cap" />
               <div className="card-body">
                 <h2 className="card-title">Lorem ipsum dolor sit amet consectetur..</h2>
                 <p className="card-text">
@@ -26,7 +26,7 @@ class JumboTron extends Component {
           </div>
           <div className="col-12 col-md-9 col-lg-5">
             <div className="card">
-              <img className="card-img-top" src="https://via.placeholder.com/120x100" alt="Card image cap" />
+            <img className="card-img-top" src="https://source.unsplash.com/400x400?cats,dogs" alt="Card image cap" />
               <div className="card-body">
                 <h2 className="card-title">Lorem ipsum dolor sit amet consectetur.</h2>
                 <p className="card-text">
